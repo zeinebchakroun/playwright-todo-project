@@ -5,14 +5,15 @@ export default class User {
     private lastName:string;
     private email:string;
     private password:string;
-    private access_token:string;
-    private userID:string;
+   private access_token:string;
+    
 
     constructor(){
         this.firstName = faker.person.firstName();
         this.lastName = faker.person.lastName();
         this.email =  faker.internet.email();
         this.password =  "Test1234";
+        
 
     }
     getFirstName() {
