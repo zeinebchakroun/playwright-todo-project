@@ -1,5 +1,5 @@
 import { APIRequestContext } from "@playwright/test";
-import User from "../models/user";
+import User from "../models/User";
 
 export default class UserApi {
  
