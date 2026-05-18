@@ -1,5 +1,5 @@
 import {expect, test} from '@playwright/test';
-import User from '../models/user';
+import User from '../models/User';
 import RegisterPage from '../pages/RegisterPage';
 import NewTodoPage from '../pages/NewTodoPage';
 import TodoPage from '../pages/TodoPage';
