@@ -1,7 +1,6 @@
 
 import {test, expect} from '@playwright/test';
-import {faker} from '@faker-js/faker';
-import User from '../models/user';
+import User from '../models/User';
 import RegisterPage from '../pages/RegisterPage';
 import TodoPage from '../pages/TodoPage';
 
